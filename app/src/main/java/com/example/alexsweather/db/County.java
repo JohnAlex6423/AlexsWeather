@@ -1,10 +1,12 @@
 package com.example.alexsweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by LaoZhao on 2017/12/8.
  */
 
-public class County {
+public class County extends DataSupport{
     private int id;
 
     private String countyName;
