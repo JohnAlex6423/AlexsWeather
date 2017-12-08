@@ -1,0 +1,13 @@
+<litepal>
+
+    <dbname value="alex_werther"/>
+
+    <version value="1"/>
+
+    <list>
+        <mapping class="com.example.alexsweather.db.Province"/>
+        <mapping class="com.example.alexsweather.db.City"/>
+        <mapping class="com.example.alexsweather.db.County"/>
+    </list>
+
+</litepal>
