@@ -14,10 +14,10 @@ public class Basic {
     @SerializedName("id")
     public String weatherId;
 
-    public Updata updata;
+    public Update update;
 
-    public class Updata{
+    public class Update{
         @SerializedName("loc")
-        public String updataTime;
+        public String updateTime;
     }
 }
